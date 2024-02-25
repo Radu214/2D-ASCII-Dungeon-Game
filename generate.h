@@ -7,6 +7,7 @@
 using namespace std;
 
 int gen(char cmap[17][28], int & h, int & w) { //generates random map levels(random positions for walls '#', traps @, enemy spawn and exit)
+    int nr = 1;
     strcpy(cmap[0], "__________________________");
     strcpy(cmap[1], "|                         |");
     strcpy(cmap[2], "|                         |");
